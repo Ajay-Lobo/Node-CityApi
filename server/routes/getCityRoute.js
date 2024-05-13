@@ -3,4 +3,4 @@ import { getAllCities } from "../controllers/getCityController.js";
 
 export const cityGet = express.Router();
 
-cityGet.get("/cities", getAllCities);
+cityGet.get("/city", getAllCities);

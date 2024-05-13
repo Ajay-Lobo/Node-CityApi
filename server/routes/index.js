@@ -7,7 +7,7 @@ export const router = express.Router();
 
 const baseUrl = "api/v1";
 
-router.use(`/${baseUrl}/add`, cityAdd);
-router.use(`/${baseUrl}/update`, cityUpdate);
-router.use(`/${baseUrl}/delete`, cityDelete);
+router.use(`/${baseUrl}/`, cityAdd);
+router.use(`/${baseUrl}/`, cityUpdate);
+router.use(`/${baseUrl}/`, cityDelete);
 router.use(`/${baseUrl}/`, cityGet);

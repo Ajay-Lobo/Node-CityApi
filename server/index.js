@@ -5,7 +5,7 @@ import { router } from "./routes/index.js";
 dotenv.config();
 
 const app = express();
-app.setMaxListeners(20);
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(router);
